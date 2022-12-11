@@ -1,0 +1,170 @@
+#social-media {
+    height: 100%;
+        align-items: center;
+        justify-content: center;
+    color: #787C80;
+}
+.icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #787C80;
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    column-gap: 20px;
+}
+.icon {
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    border-radius: 100%;
+    outline: 2px solid #C0C6CC;
+    transition-property: 
+    outline-offset, outline-color, background-color;
+    transition-duration: .2s;
+}
+.icon:hover {
+    outline-offset: 3px;
+    animation: shake .3s;
+}
+.icon--instagram {
+    background-image: url("Icons/Instagram.png");
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--facebook {
+    background-image: url("Icons/Facebook.png");
+    background-size: 31px 31px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--linkedin {
+    background-image: url("Icons/LinkedIn.png");
+    background-size: 31px 31px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--twitter {
+    background-image: url("Icons/Twitter.png");
+    background-size: 31px 31px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--github {
+    background-image: url("Icons/GitHub.png");
+    background-size: 31px 31px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--instagram:hover {
+    background-color: #E1306C;
+    outline-color: #E1306C;
+    background-image: url("Icons/Instagram_white.png");
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--facebook:hover {
+    background-color: #4267B2;
+    outline-color: #4267B2;
+    background-image: url("Icons/Facebook_white.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--linkedin:hover {
+    background-color: #0A66C2;
+    outline-color: #0A66C2;
+    background-image: url("Icons/LinkedIn_white.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--twitter:hover {
+    background-color: #1DA1F2;
+    outline-color: #1DA1F2;
+    background-image: url("Icons/Twitter_white.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon--github:hover {
+    background-color: #171515;
+    outline-color: #171515;
+    background-image: url("Icons/GitHub_white.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@keyframes shake {
+    10%{transform: rotate(20deg);}
+    20%{transform: rotate(-20deg);}
+    30%{transform: rotate(20deg);}
+    40%{transform: rotate(-20deg);}
+}
+#header {
+    max-width: 1920px;
+        background-color: #F0F8FF;
+}
+.column {
+    width: 100%;
+    height: 70px;
+        display: flex;
+}
+.column--logo {
+    height: 70px;
+    width: 5%;
+        padding-left: 20px;
+        padding-right: 20px;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+        background-image: url("Logos/TAB_icon.png");
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-position: center center;
+}
+.column--description {
+    height: 70px;
+    width: 80%;
+        display: flex;
+            align-items: center;
+            justify-content: flex-start;
+}
+.column--description p {
+    margin: 0px;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Nunito', sans-serif;
+            text-align: left;
+    color: #08457E;
+}
+.column--menu {
+    width: 15%;
+    height: 70px;
+        display: flex;
+            flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+}
+.column--menu span{
+    font-size: 18px;
+
+}
+.material-symbols-rounded{
+
+}
+
+margin: 0px;
+        font-size: ;
+        font-weight: 600;
+        font-family: 'Nunito', sans-serif;
+            text-align: left;
+    color: #08457E;
